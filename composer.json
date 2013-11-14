@@ -1,0 +1,27 @@
+{
+    "name":         "gpirrotta/projectname",
+    "type":         "library",
+    "description":  "Project Name description",
+    "homepage":     "http://www.projectname.com",
+    "keywords":     ["skeleton", "library", "composer"],
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":     "Giovanni Pirrotta",
+            "email":    "giovanni.pirrotta@gmail.com",
+            "homepage": "http://giovanni.pirrotta.it"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "monolog/monolog": "1.6.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.8.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "GP": "src"
+        }
+    }
+}
